@@ -18,13 +18,13 @@ return -1;
 }
 int main()
 {
-	int loc,x,arr[]={1,2,3,4,5,6,7,8}
-	x=5;
-	loc=binary_search(arr,0,10,x);
+	int loc,arr[]={1,2,3,4,5,6,7,8};
+	//int x;
+	loc=binary_search(arr,0,10,5);
 	if(loc!= -1)
-		print("Element found : %d",loc);
+		printf("Element found : %d",loc);
 	else
-		print("Element no found");
+		printf("Element no found");
 return 0;
 }
 	
